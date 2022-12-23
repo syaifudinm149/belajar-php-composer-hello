@@ -1,0 +1,19 @@
+{
+  "name": "jerry/belajar-php-composer-hello",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Jerry\\BelajarPhpComposerHello\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Muhammad Syaifudin",
+      "email": "syaifudinm84@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
